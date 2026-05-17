@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Automation Projects</title>
+
+<style>
+  body{
+    font-family: Arial, sans-serif;
+    background:#ffffff;
+    margin:0;
+    padding:40px;
+  }
+
+  h1{
+    text-align:center;
+    margin-bottom:30px;
+  }
+
+  .container{
+    max-width:1000px;
+    margin:auto;
+  }
+
+  .case-box{
+    background:#f2f2f2;
+    padding:25px;
+    border-radius:12px;
+    margin-bottom:25px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+  }
+
+  .title{
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:15px;
+  }
+
+  .section{
+    font-weight:bold;
+    margin-top:12px;
+    margin-bottom:5px;
+  }
+
+  p{
+    margin:5px 0 10px;
+  }
+
+  ul{
+    margin-top:5px;
+  }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Automation Portfolio</h1>
+
+<!-- 1 -->
+<div class="case-box">
+  <div class="title">1. Automated Coordination Tracker (Power Query + Power Automate)</div>
+
+  <div class="section">Executive Summary</div>
+  <p>Context: Asia Pacific Recruitment Operations<br>
+  Role: Recruitment Operations / Talent Analytics<br>
+  Tools Used: Power Query, Advanced Excel, Power Automate<br>
+  Impact: Reduced manual coordination tracking effort by ~6–7 hours/week and improved real-time visibility of interview coordination status.</p>
+
+  <div class="section">Business Problem Statement</div>
+  <ul>
+    <li>Interview coordination was tracked manually across multiple Excel sheets.</li>
+    <li>Data was inconsistent due to frequent manual updates and version issues.</li>
+    <li>Multiple stakeholders relied on different tracker versions.</li>
+    <li>No real-time visibility of interview scheduling status.</li>
+    <li>High manual effort required for updating and validating coordination data.</li>
+  </ul>
+
+  <div class="section">Solution Architecture</div>
+  <ul>
+    <li>Consolidated all coordination inputs into a single structured dataset.</li>
+    <li>Built Power Query logic to clean, standardize, and merge multiple trackers.</li>
+    <li>Created refreshable model for real-time updates.</li>
+    <li>Automated data transformation to ensure consistent interview tracking status.</li>
+  </ul>
+
+  <p><b>Flow:</b> Data Sources → Power Query Cleaning → Data Merge → Status Logic → Unified Coordination Tracker → Refresh Output</p>
+
+  <div class="section">Measurable Impact</div>
+  <ul>
+    <li>Reduced manual tracking effort by ~6–7 hours/week.</li>
+    <li>Eliminated dependency on multiple Excel trackers.</li>
+    <li>Improved accuracy and consistency of coordination data.</li>
+    <li>Enabled real-time visibility for stakeholders.</li>
+    <li>Reduced human error from manual updates.</li>
+  </ul>
+</div>
+
+<!-- 2 -->
+<div class="case-box">
+  <div class="title">2. Automated Onboarding Tracker (Power Query & Excel)</div>
+
+  <div class="section">Executive Summary</div>
+  <p>Context: Asia Pacific recruitment operations<br>
+  Role: Recruitment Operations<br>
+  Tools Used: Power Query, Advanced Excel, Data Modeling<br>
+  Impact: Reduced manual tracking effort by 10 hours/week, improved onboarding visibility across 13 APAC countries</p>
+
+  <div class="section">Business Problem Statement</div>
+  <ul>
+    <li>Onboarding status was tracked manually across multiple Excel files.</li>
+    <li>Inconsistent tracker updates.</li>
+    <li>Manual consolidation required frequent copy-pasting.</li>
+    <li>Leadership lacked real-time onboarding visibility.</li>
+    <li>Error rate due to duplicate entries and mismatched data.</li>
+    <li>High time consumption.</li>
+  </ul>
+
+  <div class="section">Solution Architecture</div>
+  <p><b>Data Sources</b></p>
+  <ul>
+    <li>Offer release tracker (Pulled via ATS - Avature)</li>
+    <li>Candidate onboarding sheet stored in XLS</li>
+  </ul>
+
+  <p><b>Power Query Logic Applied</b></p>
+  <ul>
+    <li>Cleaned inconsistent headers.</li>
+    <li>Created calculated columns.</li>
+    <li>Built conditional logic for onboarding status.</li>
+    <li>Created refreshable Power Query with one-click update.</li>
+  </ul>
+
+  <p><b>Flow:</b> Data Sources → Power Query Cleaning → Data Merge → Status Logic → Output</p>
+
+  <div class="section">Measurable Impact</div>
+  <ul>
+    <li>Reduced manual consolidation time from 10 hours/week.</li>
+    <li>Enabled visibility across 13 APAC countries.</li>
+    <li>Clear view of Offer vs Joined candidates.</li>
+    <li>Improved tracking efficiency.</li>
+    <li>Reduced duplicate record errors by 100%.</li>
+  </ul>
+</div>
+
+<!-- 3 -->
+<div class="case-box">
+  <div class="title">3. Automated Interview Scheduling Emails (Power Automate)</div>
+
+  <div class="section">Executive Summary</div>
+  <p>Context: APAC Recruitment Coordination Process<br>
+  Role: Recruitment Operations<br>
+  Tools Used: Power Automate, Outlook, Excel<br>
+  Impact: Reduced manual interview scheduling email effort by ~4–5 hours/week</p>
+
+  <div class="section">Business Problem Statement</div>
+  <ul>
+    <li>Interview scheduling emails were sent manually for every request.</li>
+    <li>High repetitive effort for formatting and sending emails.</li>
+    <li>Risk of delays in coordination communication.</li>
+    <li>No standardized email structure across recruiters.</li>
+    <li>Dependency on manual intervention for every scheduling update.</li>
+  </ul>
+
+  <div class="section">Solution Architecture</div>
+  <ul>
+    <li>Extracted interview details from structured Excel tracker.</li>
+    <li>Built Power Automate cloud flow for email generation.</li>
+    <li>Designed dynamic email templates.</li>
+    <li>Integrated Outlook for automated distribution.</li>
+  </ul>
+
+  <p><b>Flow:</b> Interview Data → Power Automate Trigger → Dynamic Email Body → Outlook Distribution</p>
+
+  <div class="section">Measurable Impact</div>
+  <ul>
+    <li>Reduced manual email effort by ~4–5 hours/week.</li>
+    <li>Standardized interview communication format.</li>
+    <li>Faster turnaround time for scheduling emails.</li>
+    <li>Reduced dependency on manual coordination steps.</li>
+  </ul>
+</div>
+
+<!-- 4 -->
+<div class="case-box">
+  <div class="title">4. LIA (TA Partner Chatbot) (Microsoft Teams – Microsoft 365)</div>
+
+  <div class="section">Executive Summary</div>
+  <p>Context: Talent Acquisition Operations Support<br>
+  Role: Recruitment Operations / TA Enablement<br>
+  Tools Used: Microsoft 365, Teams, Chatbot (Copilot/Power Virtual Agent)<br>
+  Impact: Reduced repetitive TA queries and improved self-service resolution</p>
+
+  <div class="section">Business Problem Statement</div>
+  <ul>
+    <li>TA partners frequently raised repetitive queries.</li>
+    <li>HR Ops team spent significant time answering same questions.</li>
+    <li>No centralized self-service system.</li>
+    <li>Delayed responses impacted efficiency.</li>
+    <li>Lack of scalable FAQ support system.</li>
+  </ul>
+
+  <div class="section">Solution Architecture</div>
+  <ul>
+    <li>Built chatbot using Microsoft 365 and deployed in Teams.</li>
+    <li>Configured predefined responses for TA queries.</li>
+    <li>Integrated structured knowledge base.</li>
+    <li>Enabled instant response system.</li>
+  </ul>
+
+  <p><b>Flow:</b> User Query → Chatbot Engine → Knowledge Base → Instant Response</p>
+
+  <div class="section">Measurable Impact</div>
+  <ul>
+    <li>Reduced repetitive TA queries by ~60%.</li>
+    <li>Improved response time from hours → instant.</li>
+    <li>Reduced dependency on HR Ops team.</li>
+    <li>Improved TA partner experience.</li>
+  </ul>
+</div>
+
+</div>
+
+</body>
+</html>
